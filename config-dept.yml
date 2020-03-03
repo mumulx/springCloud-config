@@ -15,8 +15,8 @@ mybatis:
 
 spring:
   profiles: dev
-    application:
-      name: springcloud-config-eureka
+  application:
+    name: springcloud-config-eureka
   datasource:
     #   数据源基本配置
     username: root
@@ -52,8 +52,8 @@ mybatis:
 
 spring:
   profiles: test
-    application:
-      name: springcloud-config-eureka
+  application:
+    name: springcloud-config-eureka
   datasource:
     #   数据源基本配置
     username: root
